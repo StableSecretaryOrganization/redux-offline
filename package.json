@@ -14,7 +14,8 @@
     "prettier": "eslint src --fix",
     "test": "jest",
     "test:watch": "jest --watch",
-    "watch": "npm run build -- --watch"
+    "watch": "npm run build -- --watch",
+    "postinstall": "npm run build"
   },
   "jest": {
     "rootDir": "src"
